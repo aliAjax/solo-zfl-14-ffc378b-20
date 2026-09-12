@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 5114",
     "build": "vite build",
+    "test": "node --test tests/",
     "preview": "vite preview --host 0.0.0.0 --port 6114"
   },
   "devDependencies": {
